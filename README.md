@@ -1,5 +1,5 @@
-# Name:
-# Date:
+# Name: Brian Kropff, Patrick Fiorentino, Virginie Trubiano
+# Date: 04 - 09 - 2015
 
 Description:
 

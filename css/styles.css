@@ -1,0 +1,22 @@
+#result {
+  display: none;
+}
+body {
+  background-color : #00CC99;
+}
+
+header {
+background : url('https://c1.staticflickr.com/3/2736/4297664848_d2af46deae.jpg');
+text-align: center;
+ margin: 0 -150px 25px -150px;
+ padding: 25px 0;
+ background-size: 100%;
+ color : #00CC99;
+ text-shadow: -2px 4px 2px white;
+ width: 140%;
+
+ }
+
+label {
+  color : white;
+}

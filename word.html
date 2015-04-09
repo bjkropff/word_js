@@ -8,10 +8,23 @@
     <title></title>
   </head>
   <body>
-      <div >
-          <form id="form_id" action="index.html" method="post">
+      <div class='container'>
+        <header>
+        <h1><strong>Scrabble score (in JS!)</strong></h1>
+      </header>
+          <form id="form">
+            <label for="word">Entre un mot :</label>
+            <input type="text" id='word'>
 
+            <button type='submit' class="btn btn-warning">Scrabble it</button>
           </form>
+
+          <div id="result">
+            <p>
+              The scrore : <span class='score'></span>
+            </p>
+
+          </div>
       </div>
   </body>
 </html>

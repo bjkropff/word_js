@@ -77,3 +77,22 @@ var scrabbleScore = function(word) {
   return final_score;
 
 }//close function
+
+
+
+$(document).ready(function() {
+
+  $('form#form').submit(function(event) {
+
+    var word = $('input#word').val();
+
+    var result = scrabbleScore(word);
+
+    $('.score').text(result);
+
+    $('#result').show();
+    event.preventDefault();
+
+  });
+
+});
